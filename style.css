@@ -60,6 +60,11 @@ header{
     background-color: rgba(26, 25, 109, 0.5);
     border: none;
     border-radius: 50% 10%;
+    transition: 0.5s;
+}
+
+.btn:hover{
+    border-radius: 10% 50%;
 }
 
 main{
@@ -101,6 +106,10 @@ a{
     width: 200px;
     height: 200px;
     border-radius: 50% 5%;
+    transition: 0.5s;
+}
+.photo__img:hover{
+    border-radius: 5% 50%;
 }
 
 footer{
